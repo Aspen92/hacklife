@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 
@@ -16,4 +17,44 @@ body {
     background-position: center;
     background-size: cover;
     position: relative;
+}
+
+header {
+    height: 100vh;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 3rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-inline: 1.5rem;
+}
+
+.quote-wrapper {
+    width: 50%;
+    margin: 0 auto;
+    padding: 2rem;
+    margin-top: 10rem;
+    border: 0.5px solid black;
+    background-color: #ffffff10;
+}
+
+.quote-wrapper p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-style: italic;
+}
+
+#life-hacks {
+    text-align: center;
+    font-size: 2.5rem;
 }
