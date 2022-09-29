@@ -52,7 +52,7 @@
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   * Using the terminal in Gitpod to add/commit and push my project.
   
-The live link can be found here - https://aspen92.github.io/
+The live link can be found here - https://aspen92.github.io/hacklife/
   
 # Credits
 
