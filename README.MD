@@ -45,9 +45,8 @@
 - CSS     
   * No errors were found when passing through the official (Jigsaw) validator
 
-<img width="1792" alt="Lighthouse image for Readme" src="https://user-images.githubusercontent.com/96183912/193032219-ac27f11e-4f65-4029-982e-53135266714b.png">
+<img width="1025" alt="Lighthouse image for Readme" src="https://user-images.githubusercontent.com/96183912/193093252-01e3c506-f4ab-4e45-bc3e-f78561786c38.png">
 
-  
 # Deployment
   
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
