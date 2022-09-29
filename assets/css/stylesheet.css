@@ -10,7 +10,6 @@ img {
     max-width: 100%;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
@@ -22,6 +21,7 @@ body {
     position: relative;
 }
 
+/* Header styling */
 header {
     height: 100vh;
 }
@@ -46,6 +46,7 @@ header p {
     letter-spacing: 3px;
 }
 
+/* nav bar styling */
 nav a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
@@ -67,6 +68,7 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* quote wrapper styling */
 .quote-wrapper {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 200;
@@ -86,6 +88,7 @@ nav ul li a {
     font-style: italic;
 }
 
+/* This Weeks Life Hacks H3-text styling */
 #life-hacks {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
@@ -94,6 +97,7 @@ nav ul li a {
     text-decoration: underline;
 }
 
+/* Life Hacks content boxes styling */
 .container {
     width: 50%;
     margin: 0 auto;
@@ -123,6 +127,7 @@ nav ul li a {
     font-size: 1.3rem;
 }
 
+/* footer styling */
 footer {
     background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
@@ -134,6 +139,7 @@ footer {
     margin: 0 auto;
 }
 
+/* submit form styling */
 #submit-form>* {
     display: block;
 }
@@ -187,6 +193,7 @@ button {
     font-weight: 400;
 }
 
+/* contact styling */
 .contact {
     padding: 2rem;
 }
@@ -207,6 +214,7 @@ button {
     margin-right: 8px;
 }
 
+/* social media icons styling */
 #social-media {
     padding: 2rem;
 }
@@ -227,6 +235,7 @@ button {
     display: flex;
 }
 
+/* media queries for responsiveness */
 @media only screen and (max-width: 600px) {
 
     header {
