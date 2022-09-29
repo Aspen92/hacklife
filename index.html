@@ -126,29 +126,34 @@
             <div class="contact" id="contact">
                 <h3>Contact</h3>
                 <p><i class="fa-solid fa-user"></i>Christofer Asplund</p>
-                <p><i class="fa-solid fa-envelope"></i>asplundchristofer@gmail.com</p>
-                <p><i class="fa-solid fa-location-dot"></i>Sveagatan 9A, Linköping</p>
-                <p><i class="fa-solid fa-phone"></i>+46768646362</p>
+                <p><i class="fa-solid fa-envelope"></i> <a
+                        href="mailto:asplundchristofer@gmail.com">asplundchristofer@gmail.com</a></p>
+                <p><i class="fa-solid fa-location-dot"></i><a href="https://goo.gl/maps/ApzhhKvGuh8evCD58"
+                        target="_blank">Sveagatan 9A,
+                        Linköping</a></p>
+                <p><i class="fa-solid fa-phone"></i><a href="tel:+46768646362">+46768646362</a></p>
             </div>
             <div id="social-media">
                 <h3>Social Media</h3>
-                <p> <a href="https://www.linkedin.com/in/christofer-asplund-80038524b/" target="_blank"><i
-                            class="fa-brands fa-linkedin fa-2xl"></i></a></p>
-                <p><a href="https://www.facebook.com/christofer.holm.9" target="_blank"><i
-                            class="fa-brands fa-square-facebook fa-2xl"></i></a></p>
-                <p><a href="https://www.instagram.com/christoferasplund/" target="_blank"><i
-                            class="fa-brands fa-square-instagram fa-2xl"></i></a></p>
+                <div class="media-icons">
+                    <p> <a href="https://www.linkedin.com/in/christofer-asplund-80038524b/" target="_blank"><i
+                                class="fa-brands fa-linkedin fa-2xl"></i></a></p>
+                    <p><a href="https://www.facebook.com/christofer.holm.9" target="_blank"><i
+                                class="fa-brands fa-square-facebook fa-2xl"></i></a></p>
+                    <p><a href="https://www.instagram.com/christoferasplund/" target="_blank"><i
+                                class="fa-brands fa-square-instagram fa-2xl"></i></a></p>
+                </div>
             </div>
             <div>
-                <form id="submit-form">
+                <form id="submit-form" method="post" action="https://formdump.codeinstitute.net/">
                     <h4>Send Us Your Life Hacks!</h4>
-                    <label for="title">Titel</label>
-                    <input type="text" id="title" placeholder="Titel">
+                    <label for="title">Title</label>
+                    <input type="text" id="title" name="title" placeholder="Title" required>
                     <label for="email">Email Address</label>
-                    <input type="text" id="email" placeholder="Email Address">
+                    <input type="email" id="email" name="email" placeholder="Email Address" required>
                     <label for="description">Description</label>
-                    <textarea id="description" name="description" cols="30" rows="10"
-                        placeholder="Description"></textarea>
+                    <textarea id="description" name="description" cols="30" rows="10" placeholder="Description"
+                        required></textarea>
                     <button type="submit">Submit</button>
                 </form>
             </div>
