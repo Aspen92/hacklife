@@ -52,7 +52,7 @@
 - The site was deployed to GitHub pages. The steps to deploy are as follows:
   * Using the terminal in Gitpod to add/commit and push my project.
   
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html
+The live link can be found here - https://aspen92.github.io/
   
 # Credits
 
